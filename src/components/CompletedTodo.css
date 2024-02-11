@@ -1,0 +1,26 @@
+#completed-todo-list .todo-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+}
+#completed-todo-list hr{
+  width: 26.25rem;
+  margin:  0;
+}
+#completed-todo-list .todo-item .todo-label {
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  color: black;
+}
+#completed-todo-list .todo-item .todo-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: black;
+  font-size: 1rem;
+}
