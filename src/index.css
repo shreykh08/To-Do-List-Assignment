@@ -1,0 +1,15 @@
+* {
+  min-width: 0;
+}
+body {
+  font-family: Inter, sans-serif;
+  background-color: #dbf7ff;
+  margin: 0;
+}
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  width: 100%;
+}
